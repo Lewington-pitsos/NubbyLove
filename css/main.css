@@ -1,0 +1,59 @@
+.overlay-wrapper {
+  position: relative; }
+
+#top-carosel .carousel-item img {
+  height: 100vh; }
+
+.overlay {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #333;
+  background: rgba(29, 29, 29, 0.5); }
+  .overlay h1 {
+    text-align: center;
+    color: #eee; }
+
+.about-header {
+  margin-bottom: 0;
+  padding: 2rem 2rem; }
+
+.about-image {
+  height: 400px;
+  overflow: hidden; }
+
+img.about {
+  max-width: 100%;
+  min-width: 700px; }
+
+#about .first {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)); }
+#about .second {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)); }
+
+.all-goats {
+  background: #333; }
+
+.snapshot {
+  border: 20px solid white;
+  border-radius: 4px; }
+  .snapshot.one {
+    transform: rotate(-28deg); }
+  .snapshot.two {
+    transform: rotate(40deg); }
+  .snapshot.three {
+    transform: rotate(12deg); }
+
+.goat-profile {
+  padding: 2.5rem 1rem; }
+  .goat-profile.two {
+    background: #442233; }
+  .goat-profile.three {
+    background: #332244; }
+
+.goat-footer {
+  background-color: #332244; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,66 @@
+$nl-bg: #333
+$nl-fancy-bg: #442233
+$nl-fancy-bg2: #332244
+$nl-text-light: #eee
+
+.overlay-wrapper
+  position: relative
+
+#top-carosel
+  .carousel-item
+    img
+      height: 100vh
+
+.overlay
+  position: absolute
+  right: 0
+  left: 0
+  top: 0
+  bottom: 0
+  background: $nl-bg
+  background: rgba(29, 29, 29, 0.5)
+  h1
+    text-align: center
+    color: $nl-text-light
+
+.about-header
+  margin-bottom: 0
+  padding: 2rem 2rem
+
+.about-image
+  height: 400px
+  overflow: hidden
+
+img.about
+  max-width: 100%
+  min-width: 700px
+
+#about
+  .first
+    background: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0.3))
+  .second
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3))
+
+.all-goats
+  background: $nl-bg
+
+.snapshot
+  border: 20px solid white
+  border-radius: 4px
+  &.one
+    transform: rotate(-28deg)
+  &.two
+    transform: rotate(40deg)
+  &.three
+    transform: rotate(12deg)
+
+
+.goat-profile
+  padding: 2.5rem 1rem
+  &.two
+    background: $nl-fancy-bg
+  &.three
+    background: $nl-fancy-bg2
+
+.goat-footer
+  background-color: $nl-fancy-bg2
