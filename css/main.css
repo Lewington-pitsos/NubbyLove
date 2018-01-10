@@ -16,7 +16,7 @@
     text-align: center;
     color: #eee; }
 
-.about-header {
+.jumbotron {
   margin-bottom: 0;
   padding: 2rem 2rem; }
 
@@ -55,5 +55,20 @@ img.about {
 
 .goat-footer {
   background-color: #332244; }
+
+#products .left {
+  background: #442233; }
+#products .right {
+  background: #332244; }
+#products .left,
+#products .right {
+  padding-bottom: 3rem; }
+  #products .left h1,
+  #products .right h1 {
+    padding: 3rem 2rem 6rem 2rem;
+    text-align: center; }
+
+.card-body {
+  background: #332244; }
 
 /*# sourceMappingURL=main.css.map */
