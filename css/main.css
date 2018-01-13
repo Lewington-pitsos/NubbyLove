@@ -11,6 +11,9 @@ h2 {
 #top-carosel .carousel-item img {
   height: 100vh; }
 
+.container-fluid {
+  background: #333; }
+
 .overlay {
   position: absolute;
   right: 0;
