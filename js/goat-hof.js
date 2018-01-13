@@ -12,12 +12,3 @@ $(function() {
     }, 400);
   });
 });
-
-$(function() {
-  $('.about-image').on('mouseenter', function() {
-    console.log('asdasd');
-    $( this ).find('img').animate({
-      'transform': 'scale(20)'
-    }, 400);
-  })
-});
