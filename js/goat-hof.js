@@ -7,8 +7,17 @@ $(function() {
   })
   $('.goat-profile').on('mouseleave', function() {
     $( this ).animate({
-      'padding-top': "20px",
-      'padding-bottom': "20px"
+      'padding-top': "60px",
+      'padding-bottom': "60px"
     }, 400);
   });
+});
+
+$(function() {
+  $('.about-image').on('mouseenter', function() {
+    console.log('asdasd');
+    $( this ).find('img').animate({
+      'transform': 'scale(20)'
+    }, 400);
+  })
 });

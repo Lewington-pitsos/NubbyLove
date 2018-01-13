@@ -94,4 +94,16 @@ img.about {
   #footer ul {
     margin-bottom: 10rem; }
 
+@media only screen and (max-width: 767px) {
+  .snapshot {
+    border: 20px solid white;
+    border-radius: 4px;
+    margin-bottom: 30px; }
+    .snapshot.one {
+      transform: rotate(0deg); }
+    .snapshot.two {
+      transform: rotate(0deg); }
+    .snapshot.three {
+      transform: rotate(0deg); } }
+
 /*# sourceMappingURL=main.css.map */
