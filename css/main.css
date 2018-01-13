@@ -2,8 +2,13 @@ h1,
 h2 {
   text-align: center; }
 
+section {
+  padding-top: 60px;
+  margin-top: -60px; }
+
 .navbar {
-  position: fixed; }
+  position: fixed;
+  height: 70px; }
 
 .overlay-wrapper {
   position: relative; }
