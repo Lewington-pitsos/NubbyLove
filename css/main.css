@@ -84,6 +84,14 @@ img.about {
 .card-body {
   background: #332244; }
 
+#carouselExampleIndicators img {
+  height: 100%; }
+
+.product-info {
+  background: #333; }
+  .product-info .container {
+    padding: 1rem 3rem; }
+
 #footer {
   padding: 8rem 0 3rem 0; }
   #footer h4 {
