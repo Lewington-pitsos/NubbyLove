@@ -28,3 +28,12 @@ $(function() {
     }, 400);
   })
 });
+
+$(function() {
+  // shows the window scrolling to the correct element
+  $('.navbar-light').on('click', 'a', function(event) {
+    event.preventDefault();
+    var href = $(event.currentTarget).attr('href');
+    $("html, body").animate({ scrollTop: $(href).offset().top }, 600);
+  })
+})
