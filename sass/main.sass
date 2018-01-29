@@ -3,15 +3,31 @@ $nl-fancy-bg: #442233
 $nl-fancy-bg2: #332244
 $nl-text-light: #eee
 
+$green: #D4E0FA
+$blue: #BCD5F3
+$purple-d: #DDC3E0
+$purple-l: #EECEE5
+$pink-d: #F4DAE3
+$pink-l: #F8E7DF
+
+$light: #f8f9fa
+
+html
+  color: #7A7A7A
+
 h1,
 h2
   text-align: center
+
+h1
+  color: $light
 
 section
   padding-top: 60px
   margin-top: -60px
 
 .navbar
+  background: $pink-l
   position: fixed
   height: 70px
 
@@ -22,9 +38,6 @@ section
   .carousel-item
     img
       height: 100vh
-
-.container-fluid
-  background: $nl-bg
 
 .overlay
   position: absolute
@@ -44,7 +57,12 @@ section
 .hidden
   opacity: 0
 
+.main-ctr
+  padding-left: 2rem
+  padding-right: 2rem
+
 .jumbotron
+  background: none
   margin-bottom: 0
   padding: 2rem 2rem
 
@@ -57,10 +75,14 @@ img.about
   min-width: 700px
 
 #about
+  background: $green
   .first
     background: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0.3))
   .second
     background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3))
+
+#hof
+  background: $blue
 
 .all-goats
   background: $nl-bg
@@ -78,14 +100,15 @@ img.about
 
 .goat-profile
   padding: 2.5rem 1rem
+  &.one
+    background: $purple-d
   &.two
-    background: $nl-fancy-bg
+    background: $purple-l
   &.three
-    background: $nl-fancy-bg2
-.goat-footer
-  background-color: $nl-fancy-bg2
+    background: $pink-d
 
 #products
+  background: $purple-d
   .left
     background: $nl-fancy-bg
   .right
@@ -105,7 +128,7 @@ img.about
     height: 100%
 
 .product-info
-  background: $nl-bg
+  background: $purple-l
   .container
     padding: 1rem 3rem
 
@@ -125,10 +148,11 @@ img.about
     opacity: 1
 
 #footer
+  background: $pink-d
   padding: 8rem 0 3rem 0
   h4
     padding-bottom: 10px
-    border-bottom: 1px solid white
+    border-bottom: 1px solid #7A7A7A
   li
     padding-bottom: 10px
   ul

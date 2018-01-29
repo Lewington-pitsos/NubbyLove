@@ -1,12 +1,19 @@
+html {
+  color: #7A7A7A; }
+
 h1,
 h2 {
   text-align: center; }
+
+h1 {
+  color: #f8f9fa; }
 
 section {
   padding-top: 60px;
   margin-top: -60px; }
 
 .navbar {
+  background: #F8E7DF;
   position: fixed;
   height: 70px; }
 
@@ -15,9 +22,6 @@ section {
 
 #top-carosel .carousel-item img {
   height: 100vh; }
-
-.container-fluid {
-  background: #333; }
 
 .overlay {
   position: absolute;
@@ -37,7 +41,12 @@ section {
 .hidden {
   opacity: 0; }
 
+.main-ctr {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
 .jumbotron {
+  background: none;
   margin-bottom: 0;
   padding: 2rem 2rem; }
 
@@ -49,10 +58,15 @@ img.about {
   max-width: 150%;
   min-width: 700px; }
 
-#about .first {
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)); }
-#about .second {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)); }
+#about {
+  background: #D4E0FA; }
+  #about .first {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)); }
+  #about .second {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)); }
+
+#hof {
+  background: #BCD5F3; }
 
 .all-goats {
   background: #333; }
@@ -69,25 +83,26 @@ img.about {
 
 .goat-profile {
   padding: 2.5rem 1rem; }
+  .goat-profile.one {
+    background: #DDC3E0; }
   .goat-profile.two {
-    background: #442233; }
+    background: #EECEE5; }
   .goat-profile.three {
+    background: #F4DAE3; }
+
+#products {
+  background: #DDC3E0; }
+  #products .left {
+    background: #442233; }
+  #products .right {
     background: #332244; }
-
-.goat-footer {
-  background-color: #332244; }
-
-#products .left {
-  background: #442233; }
-#products .right {
-  background: #332244; }
-#products .left,
-#products .right {
-  padding-bottom: 3rem; }
-  #products .left h1,
-  #products .right h1 {
-    padding: 3rem 2rem 6rem 2rem;
-    text-align: center; }
+  #products .left,
+  #products .right {
+    padding-bottom: 3rem; }
+    #products .left h1,
+    #products .right h1 {
+      padding: 3rem 2rem 6rem 2rem;
+      text-align: center; }
 
 .card-body {
   background: #332244; }
@@ -96,7 +111,7 @@ img.about {
   height: 100%; }
 
 .product-info {
-  background: #333; }
+  background: #EECEE5; }
   .product-info .container {
     padding: 1rem 3rem; }
 
@@ -114,10 +129,11 @@ img.about {
     opacity: 1; }
 
 #footer {
+  background: #F4DAE3;
   padding: 8rem 0 3rem 0; }
   #footer h4 {
     padding-bottom: 10px;
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid #7A7A7A; }
   #footer li {
     padding-bottom: 10px; }
   #footer ul {
