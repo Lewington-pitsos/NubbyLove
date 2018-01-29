@@ -28,3 +28,7 @@ $(function() {
     }, 400);
   })
 });
+
+$function functionName() {
+
+}
